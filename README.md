@@ -9,3 +9,7 @@
 ## Running tests
 
     npm test
+
+## Notes
+
+Starting howto from [article by Michael Tiller](https://medium.com/@mtiller/debugging-with-typescript-jest-ts-jest-and-visual-studio-code-ef9ca8644132)
