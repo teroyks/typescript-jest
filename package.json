@@ -5,9 +5,10 @@
   "main": "index.js",
   "scripts": {
     "build": "tsc",
-    "test": "jest",
-    "test:coverage": "jest --coverage",
-    "test:watch": "jest --watch"
+    "test": "jest \"\\.(spec|test)\\.\"",
+    "test:coverage": "npm run test -- --coverage",
+    "test:integration": "jest \"\\.i(spec|test)\\.\"",
+    "test:watch": "npm run test -- --watch"
   },
   "author": "",
   "license": "ISC",
